@@ -1,0 +1,85 @@
+</div>
+<footer class="footer">
+    <div class="footer-navbar">
+        <ul class="footer-nav-left">
+            <li><a href="#"><i class="fa fa-home"></i> <span class="nav-text">Home</span></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i> <span class="nav-text">Favourite</span></a></li>
+        </ul>
+        <ul class="footer-nav-center">
+            <li class="cart-footer"><a href="#"><i class="fa fa-cart-plus"></i></a></li>
+        </ul>
+        <ul class="footer-nav-right">
+            <li><a href="#"><i class="fa fa-bell"></i> <span class="nav-text">Notifications</span></a></li>
+            <li><a href="#"><i class="fa fa-user"></i> <span class="nav-text">Profile</span></a></li>
+        </ul>
+    </div>
+</footer>
+</div>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-input-spinner.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript">
+	$('#categorycarousel').owlCarousel({
+    loop:true,
+    autoplay:false,
+    dots:false,
+    nav:true,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+<script type="text/javascript">
+    $('#popularcarousel').owlCarousel({
+    loop:true,
+    autoplay:false,
+    margin: 10,
+    dots:false,
+    nav:false,
+    responsive:{
+        0:{
+            items:1.5
+        },
+        600:{
+            items:1.5
+        },
+        1000:{
+            items:1.5
+        }
+    }
+})
+</script>
+<script type="text/javascript">
+    $('#featuredcarousel').owlCarousel({
+    loop:true,
+    autoplay:false,
+    margin: 10,
+    dots:false,
+    nav:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+</script>
+<script>
+    $(".cart-add").inputSpinner();
+</script>
+</body>
+</html>
